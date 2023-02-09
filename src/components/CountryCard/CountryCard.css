@@ -1,0 +1,50 @@
+.card-container {
+  height: 350px;
+  width: 270px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px 5px lightgray;
+  margin: 10px;
+}
+
+.card-container.dark {
+  background-color: rgb(20, 19, 19);
+  box-shadow: 1px 1px 15px 2px black;
+  color: white;
+}
+.card-container .top {
+  height: 175px;
+}
+.card-container .top img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  /* height: 100%; */
+  height: 100%;
+}
+
+.card-container .bottom {
+  height: 175px;
+  padding: 20px 15px;
+}
+
+.card-container .bottom .country-name {
+  font-size: 22px;
+  font-weight: bold;
+}
+.card-container.dark .bottom .country-name {
+  color: white;
+}
+.card-container .bottom .country-details span {
+  font-size: 16px;
+  font-weight: bold;
+}
+.card-container .bottom .country-details {
+  margin: 15px 0;
+  font-size: 16px;
+  font-weight: light;
+}
+.card-container .bottom .country-details p {
+  margin: 8px 0;
+}
+.card-container.dark .bottom .country-details p {
+  color: white;
+}

@@ -1,0 +1,14 @@
+.bordercountry-container{
+    display: flex;
+    height: 35px;
+    width: 80px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 1px 1px 3px 1px #888888;
+    margin: 50px 0 0 120px;
+}
+.borders{
+    display: flex;
+}
